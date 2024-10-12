@@ -1,64 +1,21 @@
-# p5.js multi sketch template
+hello
+A：Abstract Design: The shapes change color and size to give the clock a more abstract, artistic feel.
+Real-Time Update: Time is calculated using the millis() function, updating in real time with smooth rotations.
 
-By putting different sketch.js and index.html files in directories we can more easily switch between multiple experiments.
+s: Represents the current second, calculated using the millis() function.
+m: Represents the current minute, derived from the seconds count.
+h: Represents the current hour, derived from the minute count.
+Rotation Angles: The angles for each time unit are calculated using:
+sa for seconds (rotating every 6 degrees per second).
+ma for minutes (rotating every 6 degrees per minute).
+ha for hours (rotating every 15 degrees per hour).
 
----
+B：
+LIGHTING PIECE
+Light a match and watch till it goes out.
+1955 autumn
 
-This is a README file that can be used to describe and document your assignment.
+This is a simple interactive fire match animation built using the p5.js library. When the mouse hovers over the matchstick's head, the match ignites, and a glowing effect appears behind it, simulating firelight.
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
-
----
----
-
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+Move the mouse pointer close to the match head (located near the center of the screen) to trigger the firelight effect.
+When the mouse is near the match head, the color will change to a brighter red, and a glowing firelight will appear in the background, growing and shrinking dynamically.
