@@ -1,5 +1,6 @@
-hello
-A：Abstract Design: The shapes change color and size to give the clock a more abstract, artistic feel.
+
+
+A:Abstract Design: The shapes change color and size to give the clock a more abstract, artistic feel.
 Real-Time Update: Time is calculated using the millis() function, updating in real time with smooth rotations.
 
 s: Represents the current second, calculated using the millis() function.
@@ -10,7 +11,7 @@ sa for seconds (rotating every 6 degrees per second).
 ma for minutes (rotating every 6 degrees per minute).
 ha for hours (rotating every 15 degrees per hour).
 
-B：
+B:
 LIGHTING PIECE
 Light a match and watch till it goes out.
 1955 autumn
